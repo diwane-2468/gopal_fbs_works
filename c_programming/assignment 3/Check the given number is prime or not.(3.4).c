@@ -2,10 +2,10 @@
 
 int main() {
     int n = 7;
-    int isPrime = 1; // Assume number is prime
+    int isPrime = 1; 
 
     if (n <= 1) {
-        isPrime = 0; // Numbers less than or equal to 1 are not prime
+        isPrime = 0; 
     } else {
         for (int i = 2; i * i <= n; i++) {
             if (n % i == 0) {
